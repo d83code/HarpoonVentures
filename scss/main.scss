@@ -38,7 +38,11 @@
   text-align: center;
   line-height: 40px;
   border: 2px solid $border-color;
+  &:hover {
+    background-color: lighten(#56bcbb, 10%);
+    color: #ffffff;
 
+  }
 
 }
 
@@ -64,10 +68,21 @@
 
 }
 
+#menu {
+  list-style: none;
+  position: fixed;
+  right: 60px;
+  top: 50%;
+  z-index: 1;
 
-#about-us {
+  li {
+    height: 30px;
+    width: 20px;
+  }
 
-
+  a {
+    color: #2e5470;
+  }
 
 
 }
@@ -186,20 +201,6 @@ blockquote {
   ;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Extra small devices */
