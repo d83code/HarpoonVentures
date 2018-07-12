@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   font-family: "Open Sans",sans-serif;
   line-height: 1.8;
-  color: #333; }
+  color: #585c60; }
 
 h1, h2, h3 {
   margin: 0;
@@ -24,13 +24,19 @@ a {
   color: #ffffff;
   text-decoration: none; }
 
+ul {
+  margin: 0;
+  padding: 15px; }
+
 h2 {
   font-size: 50px;
   text-transform: uppercase;
   color: #2e5470; }
 
 h3 {
-  font-size: 30px; }
+  font-size: 30px;
+  color: #56bcbb;
+  font-weight: 300; }
 
 p {
   margin: 0; }
@@ -42,6 +48,7 @@ img {
 hr {
   width: 25%;
   margin: 0;
+  margin-bottom: 25px;
   border: 2px solid #56bcbb; }
 
 article {
@@ -124,6 +131,11 @@ small {
     color: #ffffff;
     text-align: center; }
 
+#advisors blockquote {
+  width: 70%; }
+#advisors article img {
+  border-radius: 50%; }
+
 #investors {
   background-image: url("../img/background-investors.jpg");
   background-size: cover;
@@ -159,23 +171,28 @@ blockquote {
     width: 750px; }
     .container .col-7 {
       width: 58.333%;
-      float: left; }
+      float: left;
+      padding: 10px; }
     .container .col-5 {
       width: 41.666%;
-      float: left; }
+      float: left;
+      padding: 10px; }
     .container .col1-2 {
       width: 50%;
-      float: left; } }
+      float: left;
+      padding: 10px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
     width: 970px; }
     .container .col-8 {
       width: 66.666%;
-      float: left; }
+      float: left;
+      padding: 10px; }
     .container .col-4 {
       width: 33.333%;
-      float: left; } }
+      float: left;
+      padding: 10px; } }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {
