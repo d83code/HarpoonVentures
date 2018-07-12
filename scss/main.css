@@ -77,8 +77,7 @@ small {
   position: relative; }
   .container .row {
     margin-right: -15px;
-    margin-left: -15px;
-    margin-bottom: 25px; }
+    margin-left: -15px; }
 
 .button, .login {
   background-color: transparent;
@@ -114,15 +113,6 @@ small {
   background-repeat: no-repeat; }
   #portfolio h2 {
     color: #ffffff; }
-  #portfolio article p {
-    color: #ffffff;
-    padding-bottom: 20px; }
-  #portfolio article p:nth-child(2) {
-    color: #56bcbb;
-    font-style: italic; }
-  #portfolio blockquote p {
-    color: #ffffff;
-    text-align: center; }
 
 #investors {
   background-image: url("../img/background-investors.jpg");
