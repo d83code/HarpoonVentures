@@ -1,0 +1,68 @@
+
+
+
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-size: $body-font-size;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.8;
+  color: #333;
+}
+h1, h2, h3 {
+  margin: 0;
+  font-family: FuturaStd-Condensed;
+}
+
+a {
+  color: $white-color;
+  text-decoration: none;
+}
+
+
+h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: $qoute-color-blue;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  width: 25%;
+  margin: 0;
+  border: 2px solid $border-color;
+
+}
+
+article {
+  padding: 35px;
+}
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: #56bcbb;
+  color: #ffffff;
+}
+small {
+  font-size: 14px;
+}

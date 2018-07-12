@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@font-face {
+  font-family: "FuturaStd-Condensed";
+  src: url("../fonts/FuturaStd-Condensed.otf");
+  src: url("../fonts/Futura Std Bold Condensed.otf");
+}
+@import "partials/variable";
+@import "partials/global";
+@import "partials/helper";
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+
+}
+
+
+
+.button {
+  background-color: transparent;
+  color: $button-color;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  display: block;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 2px solid $border-color;
+
+
+}
+
+.login {
+  @extend .button;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+}
+
+
+#main, #about-us, #portfolio, #advisors, #investors {
+  padding: 80px 0;
+}
+
+#main {
+
+  background-image: url("../img/background-main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+#about-us {
+
+
+
+
+}
+
+#portfolio {
+  background-image: url("../img/background-portfolio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  h2 {
+    color: $white-color;
+  }
+
+}
+
+#investors {
+  background-image: url("../img/background-investors.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.content {
+  text-align: center;
+  padding-top: 20%;
+  p {
+    color: $white-color;
+    padding-bottom: 30px;
+
+  }
+
+  #logo {
+    padding-bottom: 50px;
+  }
+
+
+
+}
+
+blockquote {
+  margin: 0;
+  padding-bottom: 30px;
+  p {
+    font-size: 50px;
+    font-family: FuturaStd-Condensed;
+    color: $qoute-color-blue;
+    text-transform: uppercase;
+    line-height: 1.1;
+  ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices */
+@media (max-width: 768px) {
+  #img-about {
+    display: none;
+  }
+
+
+
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .container {
+        width: 750px;
+
+    .col-7 {
+      width: 58.333%;
+      float: left;
+    }
+
+    .col-5 {
+      width: 41.666%;
+      float: left;
+    }
+
+    .col1-2 {
+      width: 50%;
+      float: left;
+    }
+      }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    .col-8 {
+      width: 66.666%;
+      float: left;
+    }
+
+    .col-4 {
+      width: 33.333%;
+      float: left;
+    }
+
+
+
+  }
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .container {
+    width: 1170px;
+  }
+
+}
