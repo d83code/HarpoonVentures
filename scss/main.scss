@@ -95,8 +95,7 @@
 
   blockquote {
 
-    p
-    {
+    p {
       color: $white-color;
       text-align: center;
     }
@@ -125,7 +124,34 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  h2 {
+    color: $white-color;
+  }
 
+  p {
+    color: $paragraph-blue;
+    margin-bottom: 15px;
+  }
+
+  blockquote {
+    width: 70%;
+    p {
+      color: $white-color;
+    }
+  }
+
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      width: auto;
+      float: left;
+      margin-right: 20px;
+    }
+
+  }
 
 }
 
